@@ -1,48 +1,32 @@
 # 📊 Gapminder Data Analytics Dashboard
 
-An interactive web dashboard built with **Python**, **Dash**, and **Plotly** to visualize life expectancy data across different countries using the Gapminder dataset.
-
-![Dashboard Preview](dashboard.png)
+An interactive, modern web application built with **Python**, **Dash**, and **Plotly** to visualize global health and demographic trends using the Gapminder dataset.
 
 ---
 
 ## 📌 Features
 
-- 🌐 **Interactive Country Selector**: Instant data updates upon selecting a country.
-- 📈 **Dynamic Plotly Graph**: Visualizes Life Expectancy trends with clean modern styling.
-- 📋 **Synchronized Data Table**: View raw dataset records corresponding to the selected country.
-- 🎨 **Card UI Layout**: Structured with CSS Flexbox, rounded borders, and clean spacing.
+- 🌐 **Interactive Filtering**: Dynamic country selection using a custom dropdown menu.
+- 📈 **Synchronized Visualization**: Line chart powered by Plotly Express tracking life expectancy over time.
+- 📋 **Data Table**: Side-by-side raw dataset viewer updating in real-time.
+- 🎨 **Card-Based UI**: Clean design with CSS Flexbox layout, custom borders, and modern spacing.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* **Python 3.x**
-* **Dash**
-* **Plotly Express**
-* **Pandas**
+* **Language**: Python 3.x
+* **Framework**: Dash (v2.x)
+* **Visualization**: Plotly Express
+* **Data Handling**: Pandas
+* **Styling**: HTML5 & Custom CSS (Flexbox)
 
 ---
 
-## 🚀 How to Run Locally
+## 📂 Repository Structure
 
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/youssef-lfakir/gapminder-dash-app.git](https://github.com/youssef-lfakir/gapminder-dash-app.git)
-   cd gapminder-dash-app
-Install required dependencies:
-
-Bash
-pip install dash plotly pandas
-Run the application:
-
-Bash
-python app.py
-Open your browser and navigate to http://127.0.0.1:8050/.
-
-👤 Author
-Youssef El Fakir
-
-Freelance Graphic Designer & AI Student
-
-GitHub Profile
+```text
+gapminder-dash-app/
+├── app.py                   # Main Dash application code
+├── gapminder_unfiltered.csv # Raw dataset
+└── README.md                # Project documentation
